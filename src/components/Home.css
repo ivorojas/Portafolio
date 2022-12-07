@@ -2,13 +2,19 @@
     background-image: url("../img/BACKGROUND.jpg");
     background-size: cover;
     color: white;
-    height: 800px;
+    /*height: 800px;*/
+    height: 100vh;
+
+}
+
+#div_navbar {
+    position: relative;
 
 }
 
 #container-content {
     position: relative;
-    top: 6rem;
+    top: 18vh;
     display: flex;
  flex-direction: row;
  justify-content: space-around;
