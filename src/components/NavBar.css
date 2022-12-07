@@ -1,0 +1,97 @@
+.nav-container {
+    display: flex;
+    background-color: transparent;
+
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.nav {
+   margin-left: 50px;
+}
+.nav-link {
+    margin-left: 50px;
+}
+
+.nav-button {
+    border: 0px;
+    padding: 0.7rem;
+    color: white;
+    background-color: transparent;
+    font-family: 'Agency FB', arial;
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+
+.nav-button:hover {
+    border: 0px;
+   cursor: pointer;
+    color: rgb(248, 250, 114);
+
+
+}
+
+/*---------------------------------------*/
+.nav-button {
+
+
+    cursor: pointer;
+    position: relative;
+
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .nav-button:focus,
+  .nav-button:hover {
+    color: rgb(248, 250, 114);
+  }
+  
+  .nav-button:focus:after,
+  .nav-button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .nav-button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(248, 250, 114);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+  /*----------------------------------------------------------*/
+
+#lets_connect {
+    border: 0px;
+    padding: 0.7rem;
+    color: black;
+    background-color: white;
+    font-family: 'Agency FB Bold', arial;
+    font-size: 2rem;
+    margin: 1.2rem;
+
+}
+
+#lets_connect:hover {
+    border: 0px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(248, 250, 114);
+    font-family: 'Agency FB Bold', arial;
+    font-size: 2rem;
+    margin: 1.2rem;
+
+
+}
+
+  /*----------------------------------------------------------*/
