@@ -1,9 +1,12 @@
 .home-container {
+    display: flex;
     background-image: url("../img/BACKGROUND.jpg");
     background-size: cover;
     color: white;
     /*height: 800px;*/
     height: 100vh;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -14,13 +17,14 @@
 
 #container-content {
     position: relative;
-    top: 12vh;
+   /* top: 12vh;*/
     display: flex;
  flex-direction: row;
  justify-content: space-around;
  align-items: center;
  font-family: 'Agency FB Bold', arial;
  padding-left: 20px;
+ 
 }
 
 #texto-landing {
@@ -99,7 +103,7 @@
 
 @media only screen and (max-width: 400px) {
     #container-content {
-    
+        margin-top: 30rem;
         display: flex;
      flex-direction: column;
      align-items: flex-start;

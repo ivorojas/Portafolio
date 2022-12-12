@@ -7,9 +7,9 @@ import Logo from "../img/logo.png"
 export default function Home() {
   return (
     <div className='home-container' id="home"  >
-      <div>
+
       <NavBar />
-      </div>
+   
 
       <div id='container-content' >
  

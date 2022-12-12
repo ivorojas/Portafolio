@@ -20,7 +20,7 @@ A large part of my life is computers and a passion for technology. I recently gr
 Some of the technologies I've been working with are...
 </p>
 
-<div>
+
   <ul id='ul'>
     <li>React</li>
     <li>JavaScript (ES6+)</li>
@@ -28,23 +28,10 @@ Some of the technologies I've been working with are...
     <li>Node.js</li>
     <li>PostgreSQL</li>
     <li>Redux</li>
+    <li>Sequelize</li>
   </ul>
-</div>
+
       </div>
-      {
-      /*
-      <div id='card_container' >
-        <div className='card' >
-          hola
-        </div>
-        <div className='card' >
-          hola
-        </div>
-        <div className='card' >
-          hola
-        </div>
-      </div>
-      */}
     </div>
   )
 }
