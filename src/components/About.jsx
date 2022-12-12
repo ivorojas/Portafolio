@@ -6,16 +6,31 @@ export default function About() {
       <div id='text_container' > 
       <h2>About </h2>
 
-<h4>
-I am a Full-Stack Developer from Argentina, Buenos Aires, with strong Front-End skills. Solid knowledge of JavaScript, React.JS, HTML, CSS, Bootstrap.
-I currently work as a Maestro Mayor de Obra, venturing into the IT world to develop web experiences and overcome new challenges.
-</h4>
+<p>
+I am a 21 year old Web
+Development student who
+aspires to become a high
+caliber programmer
+working for large
+companies in the I.T.
+industry. I have experience
+in full-stack development.
+A large part of my life is computers and a passion for technology. I recently graduated from a fullstack Bootcamp where I learned many different topics in record time with great intensity.
+<br/>
+Some of the technologies I've been working with are...
+</p>
 
+<div>
+  <ul id='ul'>
+    <li>React</li>
+    <li>JavaScript (ES6+)</li>
+    <li>Express.js</li>
+    <li>Node.js</li>
+    <li>PostgreSQL</li>
+    <li>Redux</li>
+  </ul>
+</div>
       </div>
-   
-   
-
-    
       {
       /*
       <div id='card_container' >

@@ -43,3 +43,17 @@
  /*top: -9rem;*/
 
 }
+
+
+#ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+#ul li{
+   margin-right: 2.5rem;
+}
