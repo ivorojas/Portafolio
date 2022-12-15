@@ -4,7 +4,7 @@ import {   BrowserRouter as Router,
   Route,
   Link ,NavLink } from "react-router-dom";
   import { NavHashLink } from 'react-router-hash-link';
-  import { FiMenu } from "react-icons/fi";
+ // import { FiMenu } from "react-icons/fi";
 
 import "./NavBar.css"
 

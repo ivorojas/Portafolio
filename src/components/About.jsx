@@ -16,11 +16,15 @@ companies in the I.T.
 industry. I have experience
 in full-stack development.
 A large part of my life is computers and a passion for technology. I recently graduated from a fullstack Bootcamp where I learned many different topics in record time with great intensity.
-<br/>
 Some of the technologies I've been working with are...
+
+<br/>
+<br/>
+<h4>-React, -JavaScript (ES6+), -Express.js, -Node.js, -PostgreSQL, -Redux, -Sequelize</h4>
+
 </p>
 
-
+{/*
   <ul id='ul'>
     <li>React</li>
     <li>JavaScript (ES6+)</li>
@@ -30,7 +34,7 @@ Some of the technologies I've been working with are...
     <li>Redux</li>
     <li>Sequelize</li>
   </ul>
-
+  */}
       </div>
     </div>
   )
