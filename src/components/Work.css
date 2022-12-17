@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'agency-fb';
+    src: url('.././fonts/agency-fb.ttf');
+  }
+  
+
 .work_container {
     display: flex;
     background-image: url("../img/BACKGROUND.jpg");
@@ -14,7 +20,7 @@
 .work_container h3 {
     display: flex;
     justify-content: center;
-    font-family: 'Agency FB', arial;
+    font-family: 'agency-fb', arial;
 
 }
 
@@ -41,7 +47,7 @@
 
 .card_content {
     color: white;
-    font-family: 'Agency FB', arial;
+    font-family: 'agency-fb', arial;
     margin: 1rem;
     font-size: 1.3rem;
 }
@@ -83,7 +89,7 @@
     margin-top: 10rem;
     justify-content: center;
     align-items: center;
-    font-family: 'Agency FB', arial;
+    font-family: 'agency-fb', arial;
 }
 
 .button-footer {
@@ -95,7 +101,7 @@
 
 .footer p {
     font-size: 1.2rem;
-    font-family: 'Agency FB', arial;
+    font-family: 'agency-fb', arial;
 }
 
 
