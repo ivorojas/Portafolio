@@ -21,7 +21,7 @@
 #card_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 3rem;
@@ -78,7 +78,28 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+.footer {
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Agency FB', arial;
+}
+
+.button-footer {
+    border: 0px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+.footer p {
+    font-size: 1.2rem;
+    font-family: 'Agency FB', arial;
+}
+
+
+@media only screen and (max-width: 420px) {
     .work_container {
         height: 2000px;
     }
@@ -87,6 +108,9 @@
     #card_container {
         display: flex;
         flex-direction: column;
+    }
+    .card {
+        width: 19rem;
     }
 
 }
@@ -98,5 +122,7 @@
         height: 120rem;
       
     }
-  
+    .imagen_port {
+        width: 19rem;
+    }
 }

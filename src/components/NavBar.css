@@ -90,7 +90,7 @@
 
   /*----------------------------------------------------------*/
 
-#lets_connect {
+.lets_connect {
     border: 0px;
     padding: 0.7rem;
     color: black;
@@ -98,10 +98,10 @@
     font-family: 'Agency FB Bold', arial;
     font-size: 2rem;
     margin: 1.2rem;
-
+    text-decoration:none;
 }
 
-#lets_connect:hover {
+.lets_connect:hover {
     border: 0px;
     cursor: pointer;
     color: black;
@@ -109,16 +109,25 @@
     font-family: 'Agency FB Bold', arial;
     font-size: 2rem;
     margin: 1.2rem;
-
+    text-decoration:none;
 
 }
 
   /*----------------------------------------------------------*/
 
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 420px) {
     .nav-button  {}
+    .lets_connect {
 
+      margin: 4rem;
+  }
+  .nav-container {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 

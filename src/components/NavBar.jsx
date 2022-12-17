@@ -1,8 +1,4 @@
 import React from 'react'
-import {   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link ,NavLink } from "react-router-dom";
   import { NavHashLink } from 'react-router-hash-link';
  // import { FiMenu } from "react-icons/fi";
 
@@ -24,12 +20,11 @@ export default function NavBar() {
         </button>
         
         </NavHashLink>
-        <NavHashLink to="/lets-connect" className="nav-link" smooth>
-        <button id='lets_connect'>
+     
+        <a className='lets_connect' href="mailto:ivo.2001@hotmail.com">
         let's connect!
-        </button>
-      
-        </NavHashLink>
+        </a>
+  
     {/*   <button id='menu_button'>
           <FiMenu className='icon_menu' />
         </button> */}

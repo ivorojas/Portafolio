@@ -17,8 +17,7 @@ export default function Home() {
            <p id='my-name' >hi my name is </p>
         <h1 id='ivo-rojas' >IVO ROJAS</h1>
   
-          <p id='introduction' >i'm a full-stack developer Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet dicta, 
-            suscipit reiciendis illum doloribus, rem iure ipsam, in nam earum placeat magni. </p>
+          <p id='introduction' >I'm a full-stack developer from Argentina, Buenos Aires, with strong Front-End skills. I am currently entering the IT world to develop web experiences and overcome new challenges. </p>
           </div>
           <div id='logo' >
             <img src={Logo} width="190px" />
