@@ -11,7 +11,7 @@
     /*background-attachment: fixed;*/
     color: white;
     /*height: 800px;*/
-    height: 130vh;
+    height: 62rem;
     flex-direction: column;
 
 
@@ -107,7 +107,7 @@
 
 @media only screen and (max-width: 420px) {
     .work_container {
-        height: 2000px;
+        /*height: 2000px;*/
     }
 
  
@@ -125,7 +125,7 @@
 
     .work_container {
      
-        height: 120rem;
+        height: 100rem;
       
     }
     .imagen_port {
