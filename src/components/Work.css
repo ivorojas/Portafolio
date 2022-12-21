@@ -11,7 +11,7 @@
     /*background-attachment: fixed;*/
     color: white;
     /*height: 800px;*/
-    height: 130vh;
+    height: 105vh;
     flex-direction: column;
 
 
@@ -36,7 +36,7 @@
 .card {
     margin: 2rem;
     width: 21rem;
-    height: 35rem;
+    height: 37rem;
     background: rgba(255, 255, 255, 0.062);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
