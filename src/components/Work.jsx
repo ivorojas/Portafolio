@@ -45,11 +45,11 @@ export default function Work() {
           </p>
           <p className='tecnologias' >-react, -redux, -express, -sequelize, -theDogApi</p>
           </div>
-          <a href='https://app-dogs-production.up.railway.app/'   rel="noreferrer"  target="_blank">
+          {/*<a href='https://app-dogs-production.up.railway.app/'   rel="noreferrer"  target="_blank">
           <button className='button_card' >
             <img src={linkLogo}  alt="imagen link" />
           </button>
-          </a>
+          </a>*/}
           <a href='https://github.com/ivorojas/PI-Dogs' rel="noreferrer"  target="_blank">
           <button className='button_card' >
             <img src={github} alt="icono github" />
