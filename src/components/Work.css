@@ -2,19 +2,14 @@
     font-family: 'agency-fb';
     src: url('.././fonts/agency-fb.ttf');
   }
-  
 
 .work_container {
     display: flex;
     background-image: url("../img/BACKGROUND.jpg");
     background-size: cover;
-    /*background-attachment: fixed;*/
     color: white;
-    /*height: 800px;*/
-    height: 63rem;
+    height: 100%;
     flex-direction: column;
-
-
 }
 
 .work_container h3 {
@@ -41,8 +36,6 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
-
 }
 
 .card_content {
@@ -71,9 +64,11 @@
     margin-top: 2rem;
     margin-left: 2rem;
 }
+
 .button_card img{
     width: 1rem;
 }
+
 #work_title {
     margin-top:2rem;
     font-size: 2rem;
@@ -82,7 +77,6 @@
 .imagen_port {
     width: 21rem;
 }
-
 
 .footer {
     display: flex;
@@ -102,33 +96,4 @@
 .footer p {
     font-size: 1.2rem;
     font-family: 'agency-fb', arial;
-}
-
-
-@media only screen and (max-width: 420px) {
-    .work_container {
-        /*height: 2000px;*/
-    }
-
- 
-    #card_container {
-        display: flex;
-        flex-direction: column;
-    }
-    .card {
-        width: 19rem;
-    }
-
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .work_container {
-     
-        height: 105rem;
-      
-    }
-    .imagen_port {
-        width: 19rem;
-    }
 }

@@ -3,42 +3,32 @@
     src: url('.././fonts/agency-fb.ttf');
   }
 
-
-
 .about-container {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     background-image: url("../img/BACKGROUND3.jpg");
     background-position: 10%;
-  /* background-color: rgb(10, 6, 32);*/
     background-size: cover;
     color: white;
-    /*height: 760px;*/
-    height: 110vh;
+    height: auto;
     font-family: 'agency-fb', arial;
     font-size: 2rem;
+    padding-bottom: 30rem;
 }
-
-
 
 #about_title {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 #text_container {
-    margin-top: 8rem;
+    margin-top: 1rem;
     width: 40rem;
- /*top: -9rem;*/
 
 }
-
-
 
 #ul {
     display: flex;
@@ -50,18 +40,15 @@
     margin: 3rem;
 }
 
-
 #ul li{
    margin-right: 2.5rem;
 }
 
-@media only screen and (max-width: 420px) {
-    .about-container {
-        height: 80rem;
-    }
+@media (max-width: 540px) {
     #text_container {
-        margin-top: 15rem;
-        width: 15rem;
-        font-size: 1.6rem;
+        margin-top: 8rem;
+        width: 70%;
+        font-size: 2rem;
+        margin-bottom: 5rem;
     }
-}
+  }
