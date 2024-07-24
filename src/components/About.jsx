@@ -24,9 +24,10 @@ Some of the technologies I've been working with are...
 
 <br/>
 <br/>
+</p>
 <h4>-React, -JavaScript (ES6+), -Express.js, -Node.js, -PostgreSQL, -Redux, -Sequelize</h4>
 
-</p>
+
 
 {/*
   <ul id='ul'>
