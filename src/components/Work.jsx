@@ -2,7 +2,6 @@ import React from 'react'
 import './Work.css'
 import dogs from '../img/pantallazo-dogs.jpg'
 import weather from '../img/captura-weather.jpg'
-import linkLogo from  '../img/link-icon.png'
 import github from '../img/logotipo-de-github.png'
 import linkedinLogo from '../img/linkedin-icon-logo.png'
 

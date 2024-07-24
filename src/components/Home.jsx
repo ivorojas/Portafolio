@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Home.css"
 import NavBar from "./NavBar";
-import About from "./About";
 import Logo from "../img/logo.png"
 
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
           <p id='introduction' >I'm a full-stack developer from Argentina, Buenos Aires, with strong Front-End skills. I am currently entering the IT world to develop web experiences and overcome new challenges. </p>
           </div>
           <div id='logo' >
-            <img src={Logo} width="190px" />
+            <img src={Logo} alt='logo' width="190px" />
           </div>
 
       </div>

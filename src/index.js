@@ -4,10 +4,6 @@ import "./index.css";
 import App from "./App";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink,
 } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

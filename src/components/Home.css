@@ -79,7 +79,7 @@
     }
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 380px) {
     .home-container {
         justify-content: flex-start;
         padding-top: 2rem;
@@ -87,6 +87,9 @@
     #ivo-rojas {
         position: relative;
         left: -0.3rem;
-        font-size: 7rem;
+        font-size: 6.5rem;
+    }
+    #texto-landing {
+        padding-top: 3.4rem;
     }
   }

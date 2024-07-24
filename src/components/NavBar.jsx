@@ -1,7 +1,5 @@
 import React from 'react'
-  import { NavHashLink } from 'react-router-hash-link';
- // import { FiMenu } from "react-icons/fi";
-
+import { NavHashLink } from 'react-router-hash-link';
 import "./NavBar.css"
 
 export default function NavBar() {
