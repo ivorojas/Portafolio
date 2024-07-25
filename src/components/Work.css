@@ -32,10 +32,12 @@
     margin: 2rem;
     width: 21rem;
     height: 37rem;
-    background: rgba(255, 255, 255, 0.062);
+    background: hsla(0, 51%, 49%, 0.062);
+    /*
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    */
 }
 
 .card_content {
@@ -97,3 +99,11 @@
     font-size: 1.2rem;
     font-family: 'agency-fb', arial;
 }
+
+
+@media (max-width: 540px) {
+    .work_container {
+        background: none;
+    }
+}
+

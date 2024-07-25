@@ -63,19 +63,26 @@
     #container-content {
     display: flex;
     flex-direction: column;
+    background: none;
     }
     #texto-landing {
         margin-top: 10vw;
         width: 70%;
         margin-bottom: 2rem;
+        background: none;
     }
     #ivo-rojas {
         position: relative;
         left: -0.3rem;
         font-size: 7.5rem;
+        background: none;
     }
     #logo {
         display: none;
+    }
+    /* Se quita el background para formato Celulares */ 
+    .home-container {
+        background: none;
     }
   }
 
