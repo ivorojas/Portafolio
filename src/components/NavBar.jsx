@@ -11,7 +11,7 @@ export default function NavBar() {
           about
           </button>
         </NavHashLink>
-        <NavHashLink to="#work" className="nav-link" smooth>
+        <NavHashLink to="#work" className="nav-link" smooth >
           <button className='nav-button'>
           work
           </button>
