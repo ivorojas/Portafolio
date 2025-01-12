@@ -3,6 +3,7 @@ import './Work.css'
 import dogs from '../img/pantallazo-dogs.jpg'
 import weather from '../img/captura-weather.jpg'
 import github from '../img/logotipo-de-github.png'
+import link from '../img/link-icon.png'
 import linkedinLogo from '../img/linkedin-icon-logo.png'
 
 export default function Work() {
@@ -43,6 +44,11 @@ export default function Work() {
               <a href='https://github.com/ivorojas/PI-Dogs' rel="noreferrer"  target="_blank">
                 <button className='button_card' >
                   <img src={github} alt="icono github" />
+                </button>
+              </a>
+              <a href='https://dogs-app-client-psi.vercel.app/' rel="noreferrer"  target="_blank">
+                <button className='button_card' >
+                  <img src={link} alt="icono github" />
                 </button>
               </a>
             </div>
