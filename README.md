@@ -34,7 +34,6 @@ If you're interested in working together, feel free to reach out!
 
 - **Email**: ivo.2001@hotmail.com
 - **Linkedin**: (https://www.linkedin.com/in/ivo-rojas-753a95239/)
-- **Phone**: +54 11 41719 9226  
 - **Website**: [ivorojas.com.ar](https://ivorojas.com.ar/)  
 
 
